@@ -241,7 +241,7 @@ public class GMail {
     
     
     public static void main(String[] args) throws IOException, GeneralSecurityException {
-    	String subject="Uplers";
+    	String subject="Title";
         HashMap<String, String> hm = getGmailData(subject);
         boolean exist = isMailExist(subject);
         System.out.println("email exist in inbox: " + exist);
